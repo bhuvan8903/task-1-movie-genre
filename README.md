@@ -1,6 +1,7 @@
 # Task-1 Movie Genre Classification :
-## Introduction :
+
 Movie genre classification involves predicting the genre of a movie based on its plot summary or textual information. The task is a multi-label classification problem, where each movie can belong to multiple genres. This project leverages Natural Language Processing (NLP) techniques, such as TF-IDF and word embeddings, to convert text into features and then applies machine learning algorithms like Naive Bayes, Logistic Regression, and SVM to classify the movie genres.
+
 ## Implementation:
 1. Data Collection and Exploration
 The dataset used for movie genre classification typically includes movie plot summaries paired with one or more associated genres. A well-known dataset for this task is the CMU Movie Summary Corpus or the IMDb Dataset, which provides metadata like movie titles, plot summaries, and genre labels.
@@ -46,5 +47,6 @@ Train models like Naive Bayes, Logistic Regression, and SVM on the training data
 Evaluation:
 Use metrics like accuracy, precision, recall, F1-score, and Jaccard score to evaluate model performance.
 Since movie genre classification is a multi-label classification problem (movies can belong to multiple genres), metrics like Hamming loss and AUC-ROC can be used as well.
+
 ## Conclusion:
 This project effectively demonstrates how machine learning, combined with natural language processing techniques, can be used to classify movie genres based on plot summaries. Models like Naive Bayes and Logistic Regression perform well, particularly with preprocessing steps such as text cleaning and vectorization. However, the use of more advanced techniques like word embeddings and neural networks can further enhance performance by capturing the semantic meaning of the text.
